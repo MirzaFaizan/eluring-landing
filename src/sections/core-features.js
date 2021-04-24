@@ -30,7 +30,7 @@ const data = {
   ],
 };
 
-export default function CoreFeature() {
+export default function CoreFeatures() {
   return (
     <section sx={styles.coreFeature}>
       <Container sx={styles.containerBox}>

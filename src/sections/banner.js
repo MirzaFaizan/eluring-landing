@@ -10,27 +10,21 @@ import BannerThumb from 'assets/banner-thumb.png';
 
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
-import client3 from 'assets/sponsor/dropbox.svg';
 
 const data = [
   {
     id: 1,
     path: '#',
     image: client1,
-    title: 'paypal',
+    title: 'Taltech',
   },
   {
     id: 2,
     path: '#',
     image: client2,
-    title: 'google',
+    title: 'Global Hack',
   },
-  {
-    id: 3,
-    path: '#',
-    image: client3,
-    title: 'dropbox',
-  },
+  
 ];
 
 export default function Banner() {
@@ -44,7 +38,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+            Partner in every period of your life
           </Heading>
           <Text as="p" variant="heroSecondary">
             Get your blood tests delivered at let home collect sample from the
@@ -53,7 +47,7 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+              Request early access
             </Button>
             <>
               <ModalVideo
@@ -72,7 +66,7 @@ export default function Banner() {
             </>
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
+            <Text sx={styles.sponsorTitle}>Participated in:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>

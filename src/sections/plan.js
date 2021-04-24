@@ -34,20 +34,20 @@ const data = [
   },
 ];
 
-export default function WorkFlow() {
+export default function Plan() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id="plan">
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="Whats the plan"
+          title="How we are planning to achieve this"
           isWhite={true}
         />
 
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <Box sx={styles.card} key={item.id}>
-              <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
+              <Box sx={styles.iconBox}>{`Q${item.id}`}</Box>
               <Box sx={styles.wrapper}>
                 <Heading sx={styles.wrapper.title}>{item.title}</Heading>
                 <Text sx={styles.wrapper.subTitle}>{item.text}</Text>

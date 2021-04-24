@@ -12,7 +12,7 @@ const data = [
     id: 1,
     imgSrc: Vector,
     altText: 'Vector',
-    title: 'Vector Editing',
+    title: 'Setup your profile',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -20,7 +20,7 @@ const data = [
     id: 2,
     imgSrc: Editing,
     altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    title: ' Monitoring record your mood',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -28,18 +28,18 @@ const data = [
     id: 3,
     imgSrc: Speed,
     altText: 'Quality',
-    title: 'Quality & Short-period',
+    title: 'Anonymous delivery of care package',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
 ];
 
-export default function KeyFeature() {
+export default function OrderProcess() {
   return (
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
+          slogan="Order Process"
           title="Meet exciting feature of app"
         />
 

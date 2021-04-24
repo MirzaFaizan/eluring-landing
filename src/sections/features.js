@@ -61,7 +61,7 @@ const data = [
   },
 ];
 
-export default function Feature() {
+export default function Features() {
   return (
     <section sx={{ variant: 'section.feature' }}>
       <Container>
