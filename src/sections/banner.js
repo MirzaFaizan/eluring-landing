@@ -6,30 +6,29 @@ import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+import BannerThumb from 'assets/mockup-eluring.png';
 
-import client1 from 'assets/sponsor/paypal.svg';
-import client2 from 'assets/sponsor/google.svg';
+import client1 from 'assets/sponser/global-hack.svg';
+import client2 from 'assets/sponser/tal-tech.png';
 
 const data = [
   {
     id: 1,
     path: '#',
     image: client1,
-    title: 'Taltech',
+    title: 'Global Hack',
   },
   {
     id: 2,
     path: '#',
     image: client2,
-    title: 'Global Hack',
+    title: 'TalTech',
   },
-  
 ];
 
 export default function Banner() {
   const [videoOpen, setVideoOpen] = useState(false);
-  const handleClick = (e) => {
+  const handleClick = e => {
     e.preventDefault();
     setVideoOpen(true);
   };
@@ -41,26 +40,25 @@ export default function Banner() {
             Partner in every period of your life
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            Track your period cycle and daily health and have the facility to
+            subscribe to a period kit that will be delivered at your given
+            address anonymously just before your period starts.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Request early access
+              Get early access
             </Button>
             <>
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
+                videoId="cSw6MhIuN0c"
                 onClose={() => setVideoOpen(false)}
               />
               <Button
                 variant="textButton"
                 aria-label="Watch Video"
-                onClick={handleClick}
-              >
+                onClick={handleClick}>
                 <FaPlayCircle /> Watch Video
               </Button>
             </>
@@ -69,7 +67,15 @@ export default function Banner() {
             <Text sx={styles.sponsorTitle}>Participated in:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
+                <Link
+                  path={item.path}
+                  key={`client-key${index}`}
+                  sx={{
+                    maxHeight: 100,
+                    maxWidth: 100,
+                    minHeight: 80,
+                    minWidth:80
+                  }}>
                   <Image src={item.image} alt={item.title} />
                 </Link>
               ))}
@@ -78,7 +84,7 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image src={BannerThumb} alt="eluring application" />
         </Box>
       </Container>
     </section>
@@ -109,14 +115,13 @@ const styles = {
     },
     imageBox: {
       display: ['none', null, null, 'block'],
-      justifyContent: 'center',
-      ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
-      mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
+      justifyContent: 'flex-end',
       mt: [0, null, null, '40px', 4, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
       textAlign: 'right',
-      width: '100%',
+      maxHeight:700,
+      maxWidth:300
     },
   },
   sponsorTitle: {

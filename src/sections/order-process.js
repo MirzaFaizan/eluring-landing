@@ -14,33 +14,33 @@ const data = [
     altText: 'Vector',
     title: 'Setup your profile',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Log data about your age, previous period cycle for app to create your period cycle for next 12 month',
   },
   {
     id: 2,
     imgSrc: Editing,
     altText: 'Monitoring',
-    title: ' Monitoring record your mood',
+    title: ' Monitoring your health and mood',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'You will have a track of your period cycle for next 12 months and you can log different aspects of your health',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
+    altText: 'Subscription',
     title: 'Anonymous delivery of care package',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'You can subscribe to a period kit that will be delivered at your given address anonymously just before your period starts.',
   },
 ];
 
 export default function OrderProcess() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+    <section sx={{ variant: 'section.keyFeature' }} id="process">
       <Container>
         <SectionHeader
           slogan="Order Process"
-          title="Meet exciting feature of app"
+          title="Setup and forgot about your period worries"
         />
 
         <Grid sx={styles.grid}>

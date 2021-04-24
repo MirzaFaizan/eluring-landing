@@ -11,10 +11,12 @@ export default function Logo({ src, ...rest }) {
         display: 'flex',
         cursor: 'pointer',
         mr: 15,
+        maxHeight: 60,
+        maxWidth:200 
       }}
       {...rest}
     >
-      <Image src={src} alt="startup landing logo" />
+      <Image src={src} alt="eluring - logo" />
     </Link>
   );
 }

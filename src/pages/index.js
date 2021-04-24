@@ -19,7 +19,6 @@ export default function IndexPage() {
           <SEO title="Eluring" />
           <Banner />
           <OrderProcess />
-          <CoreFeature />
           <Features />
           <Plan />
           <Faq />

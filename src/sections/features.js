@@ -14,60 +14,60 @@ const data = [
   {
     id: 1,
     imgSrc: Smart,
-    altText: 'Smart',
-    title: 'Smart Features',
+    altText: 'Period Tracking',
+    title: 'Period Tracking',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'You will have an estimated period cycle of your next 12 months which  will help you to prepare for period days before time, you can also edit your period cycle if it starts a day or two earlier or later.',
   },
   {
     id: 2,
     imgSrc: Winner,
-    altText: 'Performance',
-    title: 'Fast Performance',
+    altText: 'Health',
+    title: 'Health Tracking',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'You can log your daily symptoms about how you feel, how much water you drink, how many hours you sleep, as well as you can add a note about something you want to keep log of for that day.',
   },
   {
     id: 3,
     imgSrc: Cloud,
-    altText: 'Content',
-    title: 'Unlimited Content',
+    altText: 'Subscription',
+    title: 'Subscription Box',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'You can subscribe to a period kit that contains basic hygiene products that you will need in your period. Period kit be delivered at your given address anonymously just before your period starts.',
   },
   {
     id: 4,
     imgSrc: Setting,
-    altText: 'Customization',
-    title: 'Unlimited Customization',
+    altText: 'Gynecologist',
+    title: 'Doctor Appointments',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'You will be able to book an appointment with top gynecologists from around the world for consultation regarding your health.',
   },
   {
     id: 5,
     imgSrc: Design,
-    altText: 'Productivity',
-    title: 'Boost Productivity',
+    altText: 'Knowledge base',
+    title: 'Knowledge base',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'You can read blog posts about how to stay healthy and have lesser pain during your periods.',
   },
   {
     id: 6,
     imgSrc: Chat,
-    altText: 'Support',
-    title: 'Customer Support',
+    altText: 'Community',
+    title: 'Community',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Women will need to be verified to join this community which is women exclusive so they can communicate their problems regarding periods and discuss the solutions with each other from around the world.',
   },
 ];
 
 export default function Features() {
   return (
-    <section sx={{ variant: 'section.feature' }}>
+    <section sx={{ variant: 'section.feature' }} id='features' >
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Core features"
+          title="The app that lets you roll worry free"
         />
 
         <Grid sx={styles.grid}>

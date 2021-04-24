@@ -25,9 +25,11 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
+      Effort to make world a better place by
+        <Link path="https://mirzafaizan.me/" target="_blank">
+          Mirza Faizan
+        </Link> &amp;<Link path="https://mirzaimran.me/" target="_blank">
+          Mirza Imran Gul
         </Link>
       </Text>
     </footer>

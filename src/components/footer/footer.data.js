@@ -4,20 +4,13 @@ export default [
     items: [
       {
         path: '/',
-        label: 'Support Center',
-      },
-      {
-        path: '/',
         label: 'Customer Support',
       },
       {
         path: '/',
         label: 'About Us',
       },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
+
       {
         path: '/',
         label: 'Popular Campaign',
@@ -29,11 +22,7 @@ export default [
     items: [
       {
         path: '/',
-        label: 'Return Policy ',
-      },
-      {
-        path: '/',
-        label: 'Privacy Policy',
+        label: 'hey@eluring.com',
       },
       {
         path: '/',
@@ -43,10 +32,6 @@ export default [
         path: '/',
         label: 'Site Map',
       },
-      {
-        path: '/',
-        label: 'Store Hours',
-      },
     ],
   },
   {
@@ -54,20 +39,9 @@ export default [
     items: [
       {
         path: '/',
-        label: 'Press inquiries',
-      },
-      {
-        path: '/',
         label: 'Social media ',
       },
-      {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
+
       {
         path: '/',
         label: 'Permissions',
@@ -88,10 +62,6 @@ export default [
       {
         path: '/',
         label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
       },
     ],
   },

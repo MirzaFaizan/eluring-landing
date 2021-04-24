@@ -4,7 +4,11 @@ export default [
     label: 'Home',
   },
   {
-    path: 'feature',
+    path: 'process',
+    label: 'Process',
+  },
+  {
+    path: 'features',
     label: 'Features',
   },
   {
@@ -12,7 +16,7 @@ export default [
     label: 'Plan',
   },
   {
-    path: 'resources',
-    label: 'Resources',
+    path: 'faq',
+    label: 'FAQs',
   },
 ];
