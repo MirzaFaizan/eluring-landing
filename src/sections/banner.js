@@ -4,12 +4,13 @@ import { Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
-import { FaPlayCircle } from 'react-icons/fa';
+import { FaPlayCircle, FaRocket } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/mockup-eluring.png';
 
 import client1 from 'assets/sponser/global-hack.svg';
 import client2 from 'assets/sponser/tal-tech.png';
+
 
 const data = [
   {
@@ -45,8 +46,10 @@ export default function Banner() {
             address anonymously just before your period starts.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get early access
+            <Button variant="whiteButton" aria-label="Get Started" >
+              <Link path={'http://app.eluring.com'} target="_blank" sx={{textDecoration: 'none', color:'black'}}>
+             Eluring (Alpha) <FaRocket  /> 
+              </Link>
             </Button>
             <>
               <ModalVideo

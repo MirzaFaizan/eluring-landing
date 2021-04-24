@@ -4,44 +4,36 @@ import SectionHeader from 'components/section-header';
 import Accordion from 'components/accordion/accordion';
 const faqs = [
   {
-    title: 'How to contact with riders emergency ?',
+    title: 'Why do women need a period kit when they can simply go and buy things themselves?',
     contents: (
       <div>
-        Get your website ads tests delivered at let collect sample from the
-        victory of the managements that supplies best design system which
-        guidelines ever with multiple features.
+        In 3rd world countries periods are considered a taboo and women feel hesitant to go and buy basic hygiene products.
+        All the shops in those regions are operated by men and there is no basic way to get them delivered to you.
       </div>
     ),
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'Is the Period tracker 100% accurate?',
     contents: (
       <div>
-        Rhino skin maybe thick but it can be quite sensitive to sunburns and
-        insect bites which is why they like wallow so much – when the mud dries
-        it acts as protection from the sunburns and insects.
+         Regular health check will help you stay healthy and pick up early warning signs of disease or illness.
       </div>
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: `Why do women need to keep a log of their health?`,
     contents: (
       <div>
-        Get your blood tests delivered at the home collect a sample from
-        management news. Get your blood tests delivered at the home collect a
-        sample from management news. Get your blood tests delivered at the home
-        collect a sample from management news. Get your blood tests delivered at
-        the home.
+        To live a stress free routine, without worrying about you
       </div>
     ),
   },
   {
-    title: `New update fixed all bug and issues`,
+    title: `Is subscription facility is available in all countries?`,
     contents: (
       <div>
-        If you’re looking to hunt a unicorn, but don’t know where to begin, try
-        Lake Superior State University in Sault Ste. Marie, Michigan. Since
-        1971, the university has issued permits to unicorn questers.
+        No, initially we are launching in one country, but in our future plans we will offer this service in other locations based on our
+        users needs.
       </div>
     ),
   },

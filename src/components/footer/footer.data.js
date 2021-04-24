@@ -3,17 +3,12 @@ export default [
     header: 'About Us',
     items: [
       {
-        path: '/',
+        path: 'https://www.instagram.com/eluringofficial/',
         label: 'Customer Support',
       },
       {
-        path: '/',
+        path: 'https://www.instagram.com/eluringofficial/',
         label: 'About Us',
-      },
-
-      {
-        path: '/',
-        label: 'Popular Campaign',
       },
     ],
   },
@@ -21,24 +16,21 @@ export default [
     header: 'Our Information',
     items: [
       {
-        path: '/',
+        path: 'mailto:hey@eluring.com',
         label: 'hey@eluring.com',
       },
       {
         path: '/',
         label: 'Terms & Conditions',
       },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
+      
     ],
   },
   {
     header: 'My Account',
     items: [
       {
-        path: '/',
+        path: 'https://www.instagram.com/eluringofficial/',
         label: 'Social media ',
       },
 
@@ -58,11 +50,7 @@ export default [
       {
         path: '/',
         label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
+      }
     ],
   },
 ];

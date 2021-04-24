@@ -9,28 +9,28 @@ import ArrowEven from 'assets/arrowEven.png';
 
 const data = [
   {
-    id: 1,
-    title: 'Set disbursement Instructions',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-  {
-    id: 2,
-    title: 'Assembly retrieves funds from your account',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-  {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: '2021 Launch Application',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We plan to launch our application in (2 cities) and migrate existing customers from temporary sales channels to application',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: '2021 Scaling 1.0',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We will start offering our subscription box in more cities across the country.',
+  },
+  {
+    id: 1,
+    title: '2022 MVP Growth: Mobile Application',
+    text:
+      'We will offer iOS and Android versions of our web application',
+  },
+  {
+    id: 2,
+    title: '2022 Community Launch',
+    text: 
+      'Adding community feature for our users as well as deciding where we want to launch our subscription box next based on analytics',
   },
 ];
 
@@ -170,7 +170,6 @@ const styles = {
       fontWeight: 400,
       lineHeight: [1.85, null, null, 1.9, 2],
       color: 'white',
-      opacity: 0.65,
       pr: [0, null, null, null, null, 5],
     },
   },
